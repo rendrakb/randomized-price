@@ -1,1 +1,1 @@
-A little tool to train rapid data portions reading
+A little tool to train rapid price reading
