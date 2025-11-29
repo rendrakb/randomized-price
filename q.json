@@ -1,0 +1,62 @@
+[
+  {
+    "template": "What item is the cheapest per unit?",
+    "type": "cheapestItem",
+    "variables": []
+  },
+  {
+    "template": "What item is the most expensive per unit?",
+    "type": "expensivestItem",
+    "variables": []
+  },
+  {
+    "template": "What is the price per unit of {item}?",
+    "type": "pricePerUnit",
+    "variables": ["item"]
+  },
+  {
+    "template": "Which is more expensive per unit? {itemA} or {itemB}",
+    "type": "moreExpensive",
+    "variables": ["itemA", "itemB"]
+  },
+  {
+    "template": "Which is cheaper per unit? {itemA} or {itemB}?",
+    "type": "moreCheap",
+    "variables": ["itemA", "itemB"]
+  },
+  {
+    "template": "What percentage is total price of {item} towards the total price overall?",
+    "type": "totalPercentage",
+    "variables": ["item"]
+  },
+  {
+    "template": "What is the price per unit difference between {itemA} and {itemB}?",
+    "type": "priceDifference",
+    "variables": ["itemA", "itemB"]
+  },
+  {
+    "template": "What is the total quantity of all items combined?",
+    "type": "totalQuantity",
+    "variables": []
+  },
+  {
+    "template": "What is the average of total price of all items?",
+    "type": "averageTotalPrice",
+    "variables": []
+  },
+  {
+    "template": "What percentage of the total quantity is {item}?",
+    "type": "quantityPercentage",
+    "variables": ["item"]
+  },
+  {
+    "template": "If all items had the same price per unit as {item}, what would the overall total price be?",
+    "type": "hypotheticalPrice",
+    "variables": ["item"]
+  },
+  {
+    "template": "If all items had the same quantity as {item}, what would the overall total price be?",
+    "type": "hypotheticalQuantity",
+    "variables": ["item"]
+  }
+]
